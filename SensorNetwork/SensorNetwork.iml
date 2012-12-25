@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/RXTXcomm.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/xbee-api-0.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/log4j-1.2.16.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/slf4j-api-1.6.4.jar!/" />
+    <varelement var="file://$MODULE_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src" kind="linksrc:" value="Xbee-src" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.7.6" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="RXTXcomm.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../SensorNetwork/libs/RXTXcomm.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xbee-api-0.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../SensorNetwork/libs/xbee-api-0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.16.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../SensorNetwork/libs/log4j-1.2.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.6.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../SensorNetwork/libs/slf4j-api-1.6.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

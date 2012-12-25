@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SensorNetworkBuild" basedir=".">
+  <property name="name" value="SensorNetwork"/> 
+  <property name="version" value="0.1"/>	
+  <property name="lib.dir" value="${basedir}/libs"/>
+  <property name="build.dir" value="${basedir}/build"/>	
+  <property name="build.dist" value="${basedir}/dist"/>	
+  <property name="build.dist.lib" value="${basedir}/dist/lib"/>	
+  <property name="build.exec" value="${basedir}/exec"/>		
+  <property name="src.dir" value="${basedir}/src"/>
+  <property name="other.src.dir" value="${basedir}/other-src"/>
+  <property name="dest.ip"   value="192.168.1.106"/>	
+  <property name="dest.user" value="pi"/>	
+  <property name="dest.pass" value="123456"/>
+  <property name="dest.location" value="/home/pi/java_files/dist"/>	
+  <property name="build.main.Class" value="ro.sensor_networks.tests.SensorNetworksTest"/>
+
+  <path id="compile.classpath">
+	    <fileset dir="${lib.dir}">
+	        <include name="**/*.jar"/>
+	    </fileset>
+  </path>
+
+  <pathconvert property="manifest.classpath" pathsep=" ">
+  	  <path	refid="compile.classpath"/>
+
+	  <mapper>
+	    <chainedmapper>
+	       <flattenmapper/>
+	       <globmapper from="*.jar" to="lib/*.jar"/>
+	    </chainedmapper>
+	  </mapper>
+  </pathconvert>
+	
+  <pathconvert property="manifest.native.classpath" pathsep=" ">
+	  	  <path	id="native.classpath">
+	  	  	<fileset dir="${lib.dir}">
+	  	  	    <exclude name="**/*.jar"/>
+	  	  	</fileset>
+	  	  </path>	
+
+		  <mapper>
+		    <chainedmapper>
+		       <flattenmapper/>
+		       <globmapper from="*" to="lib/*"/>
+		    </chainedmapper>
+		  </mapper>
+  </pathconvert> 	
+	
+	
+  <target name="echo-properties">
+	      <echo message="Directory for Java: ${java.home}"/>
+  	      <echo message="Java version: ${java.version}"/>
+  	      <echo message="Ant Java version: ${ant.java.version}"/>
+  	      <echo message="Ant version: ${ant.version}"/>
+  		  <echo message="Ant home: ${ant.home}"/>
+  </target>	
+  	
+  <target name="clean" description="Clean all generated stuff">
+	  <delete dir="${build.dir}"/>
+  	  <delete dir="${build.dist}"/>
+  </target>		
+	 
+  <target name="mkBuildDirs" description="Create Build dirs">
+	  <mkdir dir="${build.dir}"/>
+	  <mkdir dir="${build.dist}"/>
+  	  <mkdir dir="${build.dist.lib}"/>
+  </target>	
+  	
+	
+  <target name="compile-src" depends="echo-properties,clean,mkBuildDirs" description="Compile Sources">
+	 	
+  	<javac destdir="${build.dir}" 
+  		   classpathref="compile.classpath" 
+  		   debug="true" 
+  		   compiler="javac1.7"
+  	       target="1.7" 
+  		   source="1.7">   
+  	       
+  		<src path="${src.dir}"/>
+  	</javac>
+  </target>	
+	
+  <target name ="copy-other-sources" description="Copy properties and resources files">
+	  	<copy todir="${build.dir}">
+	        <fileset dir="${other.src.dir}"/>
+	    </copy>  
+	</target>	
+	
+	
+  <target name ="makejar" description="Create a jar for the HW project" depends="compile-src,copy-other-sources">
+    <jar jarfile="${build.dist}/${name}.jar" >
+    	 <fileset dir="${build.dir}"/>
+    	 <manifest>
+    	 	 <attribute name="Built-By" value="${user.name}" /> 
+    	 	 <attribute name="Main-Class" value="${build.main.Class}"/>
+    	 	 <attribute name="Class-Path" value="${manifest.classpath}"/>
+    	 	 <attribute name="Bundle-NativeCode" value="${manifest.native.classpath}"/>
+    	 	
+         </manifest>
+    </jar>
+  </target>
+	
+  <target name ="buildApp" description="Build the app" depends="makejar">
+  	<copy todir="${build.dist.lib}">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        	<include name="**/*.so"/>
+        </fileset>
+  		
+    </copy>  
+  	<copy todir="${build.dist}">
+  		<fileset dir="${build.exec}"/>
+  	</copy>
+  </target>
+
+  <target name ="copyApp" description="Copy to Raspberry" depends="buildApp">	
+  	<scp todir="${dest.user}:${dest.pass}@${dest.ip}:${dest.location}"  port="22" verbose="true" trust="true" sftp="true">
+  		    <fileset dir="${build.dist}"/>
+  		    	     
+  	</scp>
+  	
+ </target>	
+</project>
