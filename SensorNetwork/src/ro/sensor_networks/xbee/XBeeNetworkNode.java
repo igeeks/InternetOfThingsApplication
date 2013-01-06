@@ -4,14 +4,17 @@ import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.rapplogic.xbee.api.XBeeAddress16;
+import com.rapplogic.xbee.api.XBeeAddress64;
 import com.rapplogic.xbee.api.zigbee.NodeDiscover;
 import com.rapplogic.xbee.api.zigbee.NodeDiscover.DeviceType;
 
 import ro.sensor_networks.NetworkNode;
 
 public class XBeeNetworkNode implements NetworkNode {
-	
-	public enum NetworkStatus {
+
+
+    public enum NetworkStatus {
 		UP (0),
 		DOWN (1);
 		
@@ -99,6 +102,50 @@ public class XBeeNetworkNode implements NetworkNode {
 	public void setTimestamp(long timestamp) {
 		this.lastTimestamp = timestamp;
 	}
+
+
+    /**
+     * Returns the network address as an array with msb, lsb content
+     * @return
+     */
+    @Override
+    public byte[] getNetworkAddressAsBytes() {
+        byte msb  = (byte)nodeInfo.getNodeAddress16().getMsb();
+        byte lsb =  (byte)nodeInfo.getNodeAddress16().getLsb();
+        return new byte[]{msb,lsb};
+    }
+
+    /**
+     * Returns the unique address as an array
+     * @return
+     */
+    @Override
+    public byte[] getUniqueAddressAsBytes() {
+        int[] uniqueAddress = nodeInfo.getNodeAddress64().getAddress();
+        byte[] returnAddress = new byte[uniqueAddress.length];
+
+        for(int i=0; i< uniqueAddress.length;i++){
+            returnAddress[i]= (byte)uniqueAddress[i];
+        }
+
+        return returnAddress;
+    }
+
+    /**
+     * Returns the node address in XBeeAddress64 format
+     * @return
+     */
+    public XBeeAddress64 getNodeAddress64(){
+        return nodeInfo.getNodeAddress64();
+    }
+
+    /**
+     * Returns the node address in XBeeAddress16 format
+     * @return
+     */
+    public XBeeAddress16 getNodeAddress16() {
+        return nodeInfo.getNodeAddress16();
+    }
 
 	@Override
 	public String toString() {

@@ -1,7 +1,11 @@
 package ro.sensor_networks;
 
-public class NetworkAddress {
-	
-	
-	
+/**
+ * @startuml
+ * interface NetworkAddress
+ * NetworkAddress : byte[] getValue
+ * @enduml
+ */
+public interface NetworkAddress {
+     byte[] getValue();
 }

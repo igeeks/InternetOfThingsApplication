@@ -9,8 +9,8 @@
   <property name="build.exec" value="${basedir}/exec"/>		
   <property name="src.dir" value="${basedir}/src"/>
   <property name="other.src.dir" value="${basedir}/other-src"/>
-  <property name="dest.ip"   value="192.168.1.106"/>	
-  <property name="dest.user" value="pi"/>	
+  <property name="dest.ip"   value="192.168.1.103"/>   <!-- Raspberry Pi IP Address -->
+  <property name="dest.user" value="pi"/>
   <property name="dest.pass" value="123456"/>
   <property name="dest.location" value="/home/pi/java_files/dist"/>	
   <property name="build.main.Class" value="ro.sensor_networks.tests.SensorNetworksTest"/>
@@ -72,10 +72,11 @@
 	 	
   	<javac destdir="${build.dir}" 
   		   classpathref="compile.classpath" 
-  		   debug="true" 
+  		   debug="true"
   		   compiler="javac1.7"
   	       target="1.7" 
-  		   source="1.7">   
+  		   source="1.7" 
+  		   >   
   	       
   		<src path="${src.dir}"/>
   	</javac>

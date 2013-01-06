@@ -1,0 +1,16 @@
+@startuml
+actor "Client Application" as client #blue
+participant "Network Driver" as netDrv #yellow
+participant "Network Server" as netServer #green
+participant "Network Client" as netClient #green
+client ->> netDrv : Initialize Network
+client ->> netDrv : Get Server Object
+netDrv -> client : return Server Object
+client -> netServer : Begin Server
+client ->> netServer: Network Clients Available
+netServer -> client : return Network Client object
+client ->> netClient : The Network Client has data available
+netClient -> client : return boolean
+client -> netClient : Read Network Client Data
+client -> netDrv : Close network
+@enduml

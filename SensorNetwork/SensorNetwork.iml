@@ -5,7 +5,7 @@
     <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/xbee-api-0.9.jar!/" />
     <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/log4j-1.2.16.jar!/" />
     <libelement value="jar://$MODULE_DIR$/../../SensorNetwork/libs/slf4j-api-1.6.4.jar!/" />
-    <varelement var="file://$MODULE_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src" kind="linksrc:" value="Xbee-src" />
+    <varelement var="file://$MODULE_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src" value="linksrc:Xbee-src" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>

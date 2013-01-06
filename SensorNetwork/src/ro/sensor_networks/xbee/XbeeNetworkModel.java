@@ -11,19 +11,23 @@ import com.rapplogic.xbee.api.zigbee.NodeDiscover;
 import ro.sensor_networks.NetworkEventListener;
 import ro.sensor_networks.xbee.XBeeNetworkNode.NetworkStatus;
 
+import java.util.ArrayList;
+
 public class XbeeNetworkModel {
 	public static final String NODE_LIST="NODE_LIST";
-	private DefaultListModel<XBeeNetworkNode> xbeeNodeList;
+	private ArrayList<XBeeNetworkNode> xbeeNodeList;
 	
 	private int refreshPeriod; // the network refresh period
 	private String serialPortId;
 	private int speed;
 	
 	private EventListenerList changeSupport;
-		
+
+    private XBeeNetworkNode localNode;
+    private int maximumPayloadValue;
 	public XbeeNetworkModel() {
 
-		xbeeNodeList = new DefaultListModel<XBeeNetworkNode>();
+		xbeeNodeList = new ArrayList<XBeeNetworkNode>();
 		changeSupport = new EventListenerList();
 	}
 
@@ -89,7 +93,7 @@ public class XbeeNetworkModel {
 		// id  the network nodes by the 64bit unique address
 		if(node != null && findNodeWith64Address(node.getNodeInfo().getNodeAddress64()) == null)
 		{
-			xbeeNodeList.addElement(node);
+			xbeeNodeList.add(node);
 			fireNodeAddedEvent(node);
 		}
 		 
@@ -103,7 +107,7 @@ public class XbeeNetworkModel {
 			return;
 		}
 		
-		if(xbeeNodeList.removeElement(toRemoveNode)){
+		if(xbeeNodeList.remove(toRemoveNode)){
 			fireNodeRemovedEvent(toRemoveNode);
 		}
 	}
@@ -123,11 +127,11 @@ public class XbeeNetworkModel {
 
 
 
-	public DefaultListModel<XBeeNetworkNode> getXbeeNodeList() {
+	public ArrayList<XBeeNetworkNode> getXbeeNodeList() {
 		return xbeeNodeList;
 	}
 
-	public void setXbeeNodeList(DefaultListModel<XBeeNetworkNode> xbeeNodeList) {
+	public void setXbeeNodeList(ArrayList<XBeeNetworkNode> xbeeNodeList) {
 		this.xbeeNodeList = xbeeNodeList;
 	}
 	
@@ -175,7 +179,10 @@ public class XbeeNetworkModel {
 	}
 
 
-
+    /**
+     * Changes the network status for the discovered nodes
+     * @param status - new node status
+     */
 	public void changeNetworkNodeStatus(NetworkStatus status) {
 		for(int index = 0; index < xbeeNodeList.size(); index++){
 			XBeeNetworkNode node = xbeeNodeList.get(index);
@@ -184,5 +191,30 @@ public class XbeeNetworkModel {
 		
 	}
 
-	
+    public XBeeNetworkNode getLocalNode() {
+        return localNode;
+    }
+
+    public void setLocalNode(XBeeNetworkNode localNode) {
+        this.localNode = localNode;
+    }
+
+    public void setMaximumPayloadValue(int maximumPayloadValue) {
+        this.maximumPayloadValue = maximumPayloadValue;
+    }
+
+    public int getMaximumPayloadValue() {
+        return maximumPayloadValue;
+    }
+
+    @Override
+    public String toString() {
+        return "XbeeNetworkModel{" +
+                "refreshPeriod=" + refreshPeriod +
+                ", serialPortId='" + serialPortId + '\'' +
+                ", speed=" + speed +
+                ", localNode=" + localNode +
+                ", maximumPayloadValue=" + maximumPayloadValue +
+                '}';
+    }
 }
