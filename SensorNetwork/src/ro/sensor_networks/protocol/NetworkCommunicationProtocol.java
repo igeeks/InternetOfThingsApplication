@@ -22,5 +22,5 @@ public abstract class NetworkCommunicationProtocol {
     //TODO: Add exceptions for cases when the message can not be obtained
     public abstract byte[] getMessage(List<ProtocolPayload> packets) throws IncompleteMessageException;
 
-    public abstract boolean isComplete(ArrayList<ProtocolPayload> protocolPacketList);
+    public abstract boolean isMessageComplete(ArrayList<ProtocolPayload> protocolPacketList);
 }

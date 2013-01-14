@@ -2,35 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22eaa452-d890-41bd-986c-1fe7f392cc26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/IncompleteMessageException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uml_files/NetworkDriverUsageSequence.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/protocol/ProtocolPayload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/ro/sensor_networks/utils/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2OutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkAddress.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkAddress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkDriver.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkNode.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkServer.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorNetwork.iml" afterPath="$PROJECT_DIR$/SensorNetwork.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorNetwork.ipr" afterPath="$PROJECT_DIR$/SensorNetwork.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SensorNetwork.iws" afterPath="$PROJECT_DIR$/SensorNetwork.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/tests/SensorNetworksTest.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/tests/SensorNetworksTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XBeeNetworkNode.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XBeeNetworkNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkDriver.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkModel.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MOVED" beforePath="E:\Work\Disertatie\InternetOfThingsApplication\SensorNetwork\src\ro\sensor_networks\NetworkClient.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/NetworkClientConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java" afterPath="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java" />
     </list>
     <ignored path="SensorNetwork.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357486526215" ignored="false" />
+    <file path="/Dummy.txt" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358175207902" ignored="false" />
     <file path="/NetworkAddress.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356434916812" ignored="false" />
     <file path="/NetworkDriver.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357422765907" ignored="false" />
     <file path="/SensorNetworksTest.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357424109052" ignored="false" />
-    <file path="/fragment.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356638903499" ignored="false" />
+    <file path="/fragment.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540363220" ignored="false" />
     <file path="/NetworkDriverUsageSequence.puml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356465153295" ignored="false" />
     <file path="/XbeeNetworkDriver.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357484569330" ignored="false" />
     <file path="/XbeeNetworkModel.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356640003680" ignored="false" />
@@ -45,13 +28,38 @@
     <file path="/XBeeNetworkNode.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356953521626" ignored="false" />
     <file path="/NodeDiscover.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1356953513046" ignored="false" />
     <file path="C:/Work/eskill-simulator-dev-ESK-3870/OfficeSimulatorApplet/pom.xml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357163952271" ignored="false" />
-    <file path="/pom.xml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357162121342" ignored="false" />
+    <file path="/pom.xml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358175103479" ignored="false" />
     <file path="C:/Work/eskill-simulator-dev-ESK-3870/TestAppletPreload/SimulatorAppletAssembly.iml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357158808746" ignored="false" />
     <file path="C:/Work/eskill-simulator-dev-ESK-3870/OfficeSimulatorApplet/src/main/resources/META-INF/MANIFEST.MF" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357164063953" ignored="false" />
     <file path="/XBeeSeries2OutputStream.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357472292605" ignored="false" />
-    <file path="/XBeeSeries2InputStream.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357432017404" ignored="false" />
+    <file path="/XBeeSeries2InputStream.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357487163423" ignored="false" />
     <file path="/ProtocolPayload.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357425767455" ignored="false" />
     <file path="/NetworkCommunicationProtocol.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357431650275" ignored="false" />
+    <file path="/a.dummy" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892587977" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/java/com/osf/officesimulator/control/OfficeSimulatorController.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540476763" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/java/com/osf/officesimulator/desktop/OfficeSimulatorTester.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540182419" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/java/com/osf/officesimulator/desktop/EncryptionTool.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540125749" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/java/com/osf/officesimulator/ui/OfficeSimulatorMainContainer.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540331610" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/resources/com/osf/officesimulator/util/simulator_cipher.properties" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540497578" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/test/java/com/osf/officesimulator/model/OfficeSimulatorTaskTest.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540476763" ignored="false" />
+    <file path="/simulator_cipher.properties" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540495537" ignored="false" />
+    <file path="C:/Work/eskill-simulator-dev-ESK-changeCryptKey/OfficeSimulatorApplet/src/main/resources/com/osf/officesimulator/util/key_enc.bin" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357540573666" ignored="false" />
+    <file path="C:/Work/Eskill_App/web/src/com/eskill/common/util/WebUtil.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357894693208" ignored="false" />
+    <file path="C:/Work/Eskill_App/web/src/com/eskill/frontend/action/websiteforms/CollectWebsiteFormsAction.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358144396753" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/ejb-meta/META-INF/ejb-jar.xml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/AdminManagerLocal.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/AdminManagerLocalHome.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/CustomerManagerLocal.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/TestCenterLocal.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/CustomerManagerLocalHome.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/LeadLightValue.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/TestCenterLocalHome.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/build/gen-src/com/eskill/business/interfaces/LeadsourceLightValue.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357892007619" ignored="false" />
+    <file path="/WebUtil.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1357894692240" ignored="false" />
+    <file path="C:/Work/Eskill_App/ejb/src/com/eskill/common/EskillProperties.java" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358144396753" ignored="false" />
+    <file path="C:/Work/Eskill_App/web/web/WEB-INF/conf/es.properties" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358144698369" ignored="false" />
+    <file path="/es.properties" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358144467693" ignored="false" />
+    <file path="$PROJECT_DIR$/../SmartSensors/pom.xml" changelist="22eaa452-d890-41bd-986c-1fe7f392cc26" time="1358175154607" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +74,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -100,7 +109,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -137,26 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleByte.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/util/DoubleByte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="XbeeNetworkDriver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="464" column="40" selection-start="15136" selection-end="15136" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7838#9020#0" expanded="true" />
-                <element signature="e#9004#9005#0" expanded="true" />
-                <element signature="e#12642#13046#0" expanded="true" />
-                <element signature="e#13044#13045#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,16 +175,16 @@
       <file leaf-file-name="SimpleDataTransferProtocol.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="899" selection-end="991" vertical-scroll-proportion="0.0">
+            <state line="14" column="32" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkCommunicationProtocol.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java">
+      <file leaf-file-name="execSensorNetwork.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exec/execSensorNetwork.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="94" selection-start="379" selection-end="395" vertical-scroll-proportion="0.0">
+            <state line="1" column="47" selection-start="56" selection-end="69" vertical-scroll-proportion="0.022606382">
               <folding />
             </state>
           </provider>
@@ -209,7 +202,7 @@
       <file leaf-file-name="ProtocolPayload.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/protocol/ProtocolPayload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="7" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,28 +289,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XBeeSeries2InputStream.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="XBeeSeries2InputStream.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="55" selection-start="2328" selection-end="2338" vertical-scroll-proportion="0.528436">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiId.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/api/ApiId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="25" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayDeque.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/util/ArrayDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="11" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.0">
+            <state line="26" column="27" selection-start="896" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -366,10 +341,10 @@
         <option value="$PROJECT_DIR$/src/ro/sensor_networks/protocol/ProtocolPayload.java" />
         <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/IncompleteMessageException.java" />
         <option value="$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java" />
-        <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java" />
         <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2OutputStream.java" />
-        <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java" />
         <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkDriver.java" />
+        <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java" />
+        <option value="$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java" />
       </list>
     </option>
   </component>
@@ -537,6 +512,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -777,27 +753,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SensorNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SensorNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="exec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -949,17 +910,22 @@
       <created>1356426337969</created>
       <updated>1356426337969</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added streams and xbee network client">
+      <created>1357486553293</created>
+      <updated>1357486553293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818073" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.088330634" sideWeight="0.67141163" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.088330634" sideWeight="0.67181927" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -968,19 +934,19 @@
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858837" sideWeight="0.3573744" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29092383" sideWeight="0.34839478" order="3" side_tool="true" content_ui="tabs" x="454" y="209" width="371" height="566" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.4104389" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.3983353" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.25266904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24797407" sideWeight="0.59334123" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2846975" sideWeight="0.48379254" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.3573744" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1177,9 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/util/DoubleByte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="uml://JAVA/ro.sensor_networks.xbee.XbeeNetworkDriver">
@@ -1299,23 +1263,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="11" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/uml_files/NetworkDriverUsageSequence.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="267" selection-end="267" vertical-scroll-proportion="0.14325842">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/execSensorNetwork.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="56" selection-end="69" vertical-scroll-proportion="0.025373135" />
+        <state line="6" column="30" selection-start="267" selection-end="267" vertical-scroll-proportion="0.14325842" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/NetworkDriver.java">
@@ -1341,9 +1291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/MonitorableNetworkDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="70" selection-end="70" vertical-scroll-proportion="0.09550562">
-          <folding />
-        </state>
+        <state line="4" column="17" selection-start="70" selection-end="70" vertical-scroll-proportion="0.09550562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
@@ -1355,7 +1303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/protocol/ProtocolPayload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="7" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1376,23 +1324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/IncompleteMessageException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.07380608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="94" selection-start="379" selection-end="395" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="899" selection-end="991" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.07380608" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/api/XBeeRequest.java">
@@ -1402,16 +1334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/api/zigbee/ZNetTxRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="11" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/api/ApiId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="25" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="117" column="11" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/tests/SensorNetworksTest.java">
@@ -1437,27 +1360,48 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/io/ByteArrayInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="28" selection-start="7601" selection-end="7601" vertical-scroll-proportion="0.3328786">
-          <folding />
-        </state>
+        <state line="230" column="28" selection-start="7601" selection-end="7601" vertical-scroll-proportion="0.3328786" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/XbeeNetworkDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="464" column="40" selection-start="15136" selection-end="15136" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7838#9020#0" expanded="true" />
-            <element signature="e#9004#9005#0" expanded="true" />
-            <element signature="e#12642#13046#0" expanded="true" />
-            <element signature="e#13044#13045#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="11" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.023943663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../XBee Libs and Examples/Libs/xbee-api-0.9/src/com/rapplogic/xbee/api/ApiId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="25" selection-start="1982" selection-end="1982" vertical-scroll-proportion="1.4442897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/protocol/NetworkCommunicationProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="182" selection-end="182" vertical-scroll-proportion="0.093023255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/streams/XBeeSeries2InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="55" selection-start="2328" selection-end="2338" vertical-scroll-proportion="0.528436">
+        <state line="26" column="27" selection-start="896" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sensor_networks/xbee/protocols/SimpleDataTransferProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/execSensorNetwork.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="47" selection-start="56" selection-end="69" vertical-scroll-proportion="0.022606382">
           <folding />
         </state>
       </provider>

@@ -21,7 +21,10 @@ public class SimpleDataTransferProtocol extends NetworkCommunicationProtocol {
     }
 
     @Override
-    public boolean isComplete(ArrayList<ProtocolPayload> protocolPacketList) {
+    public boolean isMessageComplete(ArrayList<ProtocolPayload> protocolPacketList) {
+
+
+
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 

@@ -63,7 +63,7 @@ public class XBeeSeries2InputStream extends InputStream {
                         }
                     });
 
-                    if(communicationProtocol.isComplete(protocolPacketList)){
+                    if(communicationProtocol.isMessageComplete(protocolPacketList)){
                         try{
                             messageStream = new ByteArrayInputStream(communicationProtocol.getMessage(protocolPacketList));
                         } catch (IncompleteMessageException e){
